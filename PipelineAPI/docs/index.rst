@@ -4,9 +4,12 @@
    contain the root `toctree` directive.
 
 .. image:: /image/Mofac&alfred_CI_bl.png
+   :align: center
+========================================
 
-Welcome to PipelineAPI's documentation!
-=======================================
+
+PipelineAPI 에 오신걸 환영 합니다.
+=========================
 
 Contents:
 
