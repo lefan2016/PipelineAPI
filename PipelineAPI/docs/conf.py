@@ -19,7 +19,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
-
+from PipelineAPI import __version__ as VERSION
 
 # -- General configuration ------------------------------------------------
 
@@ -64,7 +64,7 @@ author = u'GuenMo Kim'
 # built documents.
 #
 # The short X.Y version.
-version = u'1.0.0'
+version = VERSION
 # The full version, including alpha/beta/rc tags.
 release = u'1.0.0'
 
