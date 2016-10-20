@@ -1,24 +1,14 @@
 # coding:utf-8
 
 class Asset(object):
-    """Exceptions are documented in the same way as classes.
-
-    The __init__ method may be documented in either the class level
-    docstring, or as a docstring on the __init__ method itself.
-
-    Either form is acceptable, but the two should not be mixed. Choose one
-    convention to document the __init__ method and be consistent with it.
-
-    Note:
-        Do not include the `self` parameter in the ``Args`` section.
-
-    Args:
-        msg (str): Human readable string describing the exception.
-        code (:obj:`int`, optional): Error code.
-
-    Attributes:
-        msg (str): Human readable string describing the exception.
-        code (int): Exception error code.
-
+    """모든 asset의 기본이 되는 class 입니다.
+    
     """
-    pass
+    def __inti__(self, root, thumbnail, history, project, uuid, assetType=None):
+        self.root      = root
+        self.thumbnail = thumbnail
+        self.history   = history
+        self.project   = project
+        self.uuid      = uuid
+        self.assetType = assetType
+        
